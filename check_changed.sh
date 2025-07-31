@@ -64,6 +64,8 @@ Date: $COMMIT_DATE
 
 Commit Hash: $LATEST_HASH
 
+Repo Hash: $REPO_HASH
+
 -- 
 Sent by gitchanged" | msmtp \
         --host="$SMTP_SERVER" \
